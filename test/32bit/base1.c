@@ -11,11 +11,6 @@ int foo( int c )
 
 int foo_abs( int c )
 {
-    for ( volatile int i = 0; i < 10000000; ++i )
-    {
-        
-    }
-    
     return foo(abs(c));
 }
 
